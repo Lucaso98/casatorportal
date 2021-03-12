@@ -25,6 +25,7 @@ SECRET_KEY = 'ny+uses%am$)+^1+oz_hlb@7oo5fesd2m5m8_9pr2ogl11g=at'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
+TEMPLATE_DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
