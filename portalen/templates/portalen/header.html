@@ -7,31 +7,29 @@
     border: 3px solid black;
     height: 100px;
     width: 100%;
-    }
+    display: flex;
+    align-content: center;
+  }
 
-    .center {
+  .center {
     position: relative;
     font-family: serif;
-    margin: 60px auto;
-    text-align: center;
-    }
+    margin: 37%;
+  }
 
-    .btn.btn-primary{
-    position: absolute;
-    left: 90%;
-    width: 150px;
+  .btn.btn-primary {
+    width: 100px;
     background: white;
-    color: darkred;
+    color: black;
     border: 3px solid black;
-    margin: 60px auto;
-    }
-
-
+  }
 </style>
 
 <nav class="navbar navbar-expand-lg">
-    <a class="btn btn-primary" href="{% url 'logout' %}" type="button">Logga ut</a>
-    <div class="center">
-        <h1>Casatorportalen</h1>
-    </div>
+  <a class="btn btn-primary" href="{% url 'logout' %}" type="button"
+    >Logga ut</a
+  >
+  <div class="center">
+    <h1>Casatorportalen</h1>
+  </div>
 </nav>
