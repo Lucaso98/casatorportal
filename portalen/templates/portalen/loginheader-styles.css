@@ -13,12 +13,3 @@
     left: 43%;
     top: 0%;
   }
-
-  .btn.btn-primary {
-    position: absolute;
-    left: 90%;
-    width: 150px;
-    background: white;
-    color: darkred;
-    border: 3px solid black;
-  }
