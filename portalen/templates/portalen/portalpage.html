@@ -1,7 +1,9 @@
 {% extends 'portalen/base.html' %} {% load static %} {% block content %}
 <body>
   <div class="wrapper">
-    <div class="box" id="logo">Logo</div>
+    <div class="round-logo" id="logo">
+      <img class="casator-logo" src="{% static 'images/logo.png' %}"/>
+    </div>
     <div class="btn-group dropright" id="one">
       <button
         type="button"
@@ -258,10 +260,6 @@
     width: 80%;
     height: 674px;
     margin: 0 auto;
-  }
-  .casator-logo {
-    height: 400px;
-    width: 350px;
   }
 
   .btn.btn-secondary.dropdown-toggle {
