@@ -22,8 +22,8 @@ def login_page(request):
             else:
                 messages.error(request, 'Användarnamnet ELLER lösenordet är inkorrekt.')
 
-        context = {}
-        return render(request, 'registration/login.html')
+    context = {}
+    return render(request, 'registration/login.html')
 
 
 def logout_user(request):
