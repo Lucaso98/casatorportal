@@ -88,11 +88,6 @@ Användarnamn och lösenord får du av din verksamhetschef.
                   type="password"
                 />
                 <br />
-                {% if messages %}
-                {% for message in messages %}
-                <div class="alert alert-dark" role="alert">{{message}}</div>
-                {% endfor %}
-                {% endif %}
 
                 <input
                   class="btn btn-info btn-md"
@@ -103,6 +98,9 @@ Användarnamn och lösenord får du av din verksamhetschef.
               </div>
             </form>
           </div>
+          {% for message in messages %}
+          <p id="messages">{{message}}</p>
+          {% endfor %}
         </div>
       </div>
     </div>

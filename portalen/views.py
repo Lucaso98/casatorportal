@@ -23,9 +23,9 @@ def login_page(request):
                 login(request, user)
                 return redirect('home')
             else:
-                messages.ERROR(request, 'Användarnamn ELLER Lösenord är inte korrekt.')
-
-    return render(request, 'registration/login.html')
+                messages.info(request, 'Användarnamn ELLER Lösenord är inte korrekt.')
+    context = {}
+    return render(request, 'registration/login.html', context)
 
 
 def logout_user(request):
