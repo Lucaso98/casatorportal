@@ -19,11 +19,11 @@ def login_page(request):
                 login(request, user)
                 return redirect('home')
             else:
-                messages.info(
+                messages.error(
                     request, 'Användarnamn ELLER Lösenord är inkorrekt')
 
     context = {}
-    return render(request, 'registration/login.html')
+    return render(request, 'registration/login.html', context)
 
 
 def logout_user(request):
