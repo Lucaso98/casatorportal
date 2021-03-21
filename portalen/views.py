@@ -18,9 +18,9 @@ def login_page(request):
             if user is not None:
                 login(request, user)
                 return redirect('home')
-            else:
-                messages.error(
-                    request, 'Användarnamn ELLER Lösenord är inkorrekt')
+        
+        else:
+            messages.error(request, 'Användarnamn ELLER lösenord är inkorrekt')       
 
     context = {}
     return render(request, 'registration/login.html', context)
