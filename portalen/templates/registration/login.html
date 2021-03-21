@@ -45,7 +45,7 @@
   #messages {
     color: white;
   }
-  .errorlist{
+  #messages{
     color: white;
     position: absolute;
     top: 509px;
@@ -94,7 +94,7 @@ Användarnamn och lösenord får du av din verksamhetschef.
                   type="password"
                 />
                 <br />
-                {{form.errors}}
+                <p id="messages">{{form.errors}}</p>
                 <input
                   class="btn btn-info btn-md"
                   name="submit"
