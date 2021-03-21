@@ -23,7 +23,7 @@ def login_page(request):
                 login(request, user)
                 return redirect('home')
             else:
-                messages.add_message(request, messages.ERROR 'Användarnamn ELLER Lösenord är inte korrekt.')
+                messages.ERROR(request, 'Användarnamn ELLER Lösenord är inte korrekt.')
 
     return render(request, 'registration/login.html')
 
