@@ -97,10 +97,7 @@ Användarnamn och lösenord får du av din verksamhetschef.
                 />
               </div>
             </form>
-                {% for message in messages %}
-                  <p id="messages">{{messages}}</p>
-                {% endfor %}
-                
+                {{form.errors}}
           </div>
         </div>
       </div>
