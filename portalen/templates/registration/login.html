@@ -89,11 +89,13 @@ Användarnamn och lösenord får du av din verksamhetschef.
                   type="password"
                 />
                 <br />
-                <div class="container-sm">
-                  {% for message in messages %}
-                  <p id="messages">{{message}}</p>
-                  {% endfor %}
+
+                {% for message in messages %}
+                <div class="alest alert-success">
+                  {{ message }}
                 </div>
+                {% endfor %}
+                
                 <input
                   class="btn btn-info btn-md"
                   name="submit"
