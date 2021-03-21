@@ -21,8 +21,8 @@ def login_page(request):
                 messages.info(
                     request, 'Användarnamn ELLER Lösenord är inte korrekt')
 
-    context = {}
-    return render(request, 'registration/login.html', context)
+        context = {}
+         return render(request, 'registration/login.html', context)
 
 
 def logout_user(request):
