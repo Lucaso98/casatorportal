@@ -55,11 +55,8 @@
           <div class="col-md-12" id="login-box">
             <form action="" class="form" id="login-form" method="post">
               {% csrf_token %}
-              {% for message in messages %}
-                <p id="messages">{{message}}</p>
-              {% endfor %}
               <pre>
-                
+
 
 Välkommen!
 Denna portal är till för anställda i Casator Care.
@@ -100,6 +97,10 @@ Användarnamn och lösenord får du av din verksamhetschef.
                 />
               </div>
             </form>
+                {% for message in messages %}
+                  <p id="messages">{{messages}}</p>
+                {% endfor %}
+                
           </div>
         </div>
       </div>
