@@ -95,12 +95,14 @@ Användarnamn och lösenord får du av din verksamhetschef.
                   type="submit"
                   value="Logga in"
                 />
+                <div>
+                  {% for message in messages %}
+                    <p id="messages">{{message}}</p>
+                  {% endfor %}
+                </div>
               </div>
             </form>
           </div>
-          {% for message in messages %}
-          <p id="messages">{{message}}</p>
-          {% endfor %}
         </div>
       </div>
     </div>
