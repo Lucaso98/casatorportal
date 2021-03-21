@@ -4,12 +4,10 @@ from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect
 
 
-@login_required(login_url='')
-def portal_page(request):
-    return render(request, 'portalen/portalpage.html')
-
-
 def login_page(request):
+    if request.user.is_authenticated:
+        return request('home')
+    else:
         if request.method == 'POST':
             username = request.POST.get('username')
             password = request.POST.get('password')
@@ -20,7 +18,8 @@ def login_page(request):
                 login(request, user)
                 return redirect('home')
             else:
-                messages.info(request, 'Användarnamn ELLER Lösenord är inte korrekt')
+                messages.info(
+                    request, 'Användarnamn ELLER Lösenord är inte korrekt')
 
     context = {}
     return render(request, 'registration/login.html', context)
@@ -29,3 +28,8 @@ def login_page(request):
 def logout_user(request):
     logout(request)
     return redirect('login')
+
+
+@login_required(login_url='login')
+def portal_page(request):
+    return render(request, 'portalen/portalpage.html')
