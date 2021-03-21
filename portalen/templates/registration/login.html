@@ -45,12 +45,6 @@
   #messages {
     color: white;
   }
-  #messages{
-    color: white;
-    position: absolute;
-    top: 509px;
-    left: 24%;
-  }
 </style>
 
 <body>
@@ -94,7 +88,11 @@ Användarnamn och lösenord får du av din verksamhetschef.
                   type="password"
                 />
                 <br />
-                <p id="messages">{{form.errors}}</p>
+
+                {% for message in messages %}
+                    <p id="messages">{{message}}</p>
+                {% endfor %}
+
                 <input
                   class="btn btn-info btn-md"
                   name="submit"
