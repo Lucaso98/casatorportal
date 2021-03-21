@@ -20,7 +20,7 @@ def login_page(request):
             else:
                 messages.info(request, 'Användarnamn ELLER Lösenord är inte korrekt')
 
-    context = {}
+        context = {}
     return render(request, 'registration/login.html', context)
 
 
