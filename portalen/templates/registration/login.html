@@ -89,13 +89,9 @@ Användarnamn och lösenord får du av din verksamhetschef.
                 />
                 <br />
 
-                {% if messages %}
-                <ul class="messages">
-                    {% for message in messages %}
-                    <li {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
-                    {% endfor %}
-                </ul>
-                {% endif %}
+                {% for message in messages %}
+                  <p id="messages">{{message}}</p>
+                {% endfor %}
 
                 <input
                   class="btn btn-info btn-md"
