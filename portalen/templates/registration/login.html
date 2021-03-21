@@ -19,10 +19,10 @@
     align-content: center;
     justify-content: center;
   }
-  .container {
+  .container{
     height: 599px;
   }
-  pre {
+  pre{
     display: block;
     color: #ffffff;
     font: unset;
@@ -67,10 +67,12 @@ information om hur du kommer i kontakt med oss.
               
 Är du anställd i Casator så loggar du in här nedanför.
 Användarnamn och lösenord får du av din verksamhetschef.
-            </pre>
+            </pre
+              >
               <h3 class="text-center text-info">Logga in</h3>
               <div class="form-group">
-                <label class="text-info" for="username">Användarnamn:</label>
+                <label class="text-info" for="username">Användarnamn:</label
+                ><br />
                 <input
                   class="form-control"
                   id="username"
@@ -79,19 +81,19 @@ Användarnamn och lösenord får du av din verksamhetschef.
                 />
               </div>
               <div class="form-group">
-                <label class="text-info" for="password">Lösenord:</label>
+                <label class="text-info" for="password">Lösenord:</label><br />
                 <input
                   class="form-control"
                   id="password"
                   name="password"
                   type="password"
                 />
-                {% for message in messages %}
-                <div class="error-message">
-                  <p id="messages">{{ message}}</p>
-                </div>
-                {% endfor %}
-
+                <br />
+                
+                  {% for message in messages %}
+                      <p id="messages">{{message}}</p>
+                  {% endfor %}
+                
                 <input
                   class="btn btn-info btn-md"
                   name="submit"
