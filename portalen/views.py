@@ -10,6 +10,9 @@ def portal_page(request):
 
 
 def login_page(request):
+    if request.user.is_authenticated:
+        return redirect('home')
+    else:
         if request.method == 'POST':
             username = request.POST.get('username')
             password = request.POST.get('password')
@@ -20,12 +23,11 @@ def login_page(request):
                     auth_login(request, user)
                     return redirect('home')
             else:
-                messages.error(
-                    request, 'Användarnamn ELLER Lösenord är inte korrekt')
+                messages.error(request, 'Användarnamn ELLER Lösenord är inte korrekt')
                 return redirect('login')
 
-    else:
-        return render(request, 'registration/login.html')
+    
+    return render(request, 'registration/login.html')
 
 
 def logout_user(request):
