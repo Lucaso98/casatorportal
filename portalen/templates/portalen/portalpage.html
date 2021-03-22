@@ -1,439 +1,84 @@
 {% extends 'portalen/base.html' %} {% load static %} {% block content %}
-<body>
-  <div class="wrapper">
-    <div class="round-logo" id="logo">
-      <img class="casator-logo" src="{% static 'images/logo.png' %}"/>
-    </div>
-    <div class="btn-group dropright" id="one">
-      <button
-        type="button"
-        class="btn btn-secondary dropdown-toggle"
-        data-toggle="dropdown"
-        aria-haspopup="true"
-        aria-expanded="false"
-      >
-      Reklam/PR/Trycksaker
-    </button>
-    <div class="dropdown-menu">
-      <ul>
-        <li>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            class="dropdown-item"
-            href="https://gobrave.se/"
-            >GoBrave - Hemsida och mässmaterial</a
-          >
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            class="dropdown-item"
-            href="https://www.lenanders.se/"
-            >Lenanders - Kuvert/Visitkort</a
-          >
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            class="dropdown-item"
-            href="https://www.loopia.se/"
-            >Loopia</a
-          >
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            class="dropdown-item"
-            href="https://nictrade.se/"
-            >Nictrade</a
-          >
-        </li>
-      </ul>
-</div>
-    </div>
-<div class="btn-group dropright" id="two">
-  <button
-    type="button"
-    class="btn btn-secondary dropdown-toggle"
-    data-toggle="dropdown"
-    aria-haspopup="true"
-    aria-expanded="false"
-  >
-  Förbrukningsmaterial/ Kontor
-        </button>
-        <div class="dropdown-menu">
-          <ul>
-            <li>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                class="dropdown-item"
-                href="https://www.nybloms.se/"
-                >Nybloms - Förbrukningsmaterial</a
-              >
-            </li>
-          </ul>
-        </div>
-</div>
-<div class="btn-group dropright" id="three">
-  <button
-    type="button"
-    class="btn btn-secondary dropdown-toggle"
-    data-toggle="dropdown"
-    aria-haspopup="true"
-    aria-expanded="false"
-  >
-  Ekonomi och Bokföring
-</button>
-<div class="dropdown-menu">
-  <ul>
-    <li>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        class="dropdown-item"
-        href="https://bdokontoret.bdo.se/signin"
-        >BDO Kontoret</a
-      >
-    </li>
-  </ul>
-</div>
-</div>
-<div class="btn-group dropright" id="four">
-  <button
-    type="button"
-    class="btn btn-secondary dropdown-toggle"
-    data-toggle="dropdown"
-    aria-haspopup="true"
-    aria-expanded="false"
-  >
-  Dokumentation och Avvikelser
-        </button>
-        <div class="dropdown-menu">
-          <ul>
-            <li>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                class="dropdown-item"
-                href="https://www.infosoc.nu/Js/default.aspx"
-                >Infosoc</a
-              >
-            </li>
-          </ul>
-        </div>
-</div>
-<div class="btn-group dropright" id="five">
-  <button
-    type="button"
-    class="btn btn-secondary dropdown-toggle"
-    data-toggle="dropdown"
-    aria-haspopup="true"
-    aria-expanded="false"
-  >
-  Tidrapportering och Schema
-</button>
-<div class="dropdown-menu">
-  <ul>
-    <li>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        class="dropdown-item"
-        href="https://mittschema.nu/"
-        >Pofa - Kalmarverksamheterna</a
-      >
-    </li>
-    <li>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        class="dropdown-item"
-        href="https://www.vsoft.se/"
-        >Vsoft - Schemalätt</a
-      >
-    </li>
-    <li>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        class="dropdown-item"
-        href="https://id.hogia.se/#/?returnUrl=https%3a%2f%2fid.hogia.se%2fconnect%2fauthorize%3fclient_id%3d947c72b4-d1e4-4454-95ab-a49d00f3047a%26redirect_uri%3dhttps%3a%252F%252Fmy.hogia.se%252Fsignin-oidc%26response_type%3did_token+token%26scope%3dopenid+email+profile%26state%3d8e275cd2399f40f39de8430222e79c17%26nonce%3d1ee2cc6c43ff48c6b2f06ee99cea145c%26response_mode%3dfragment&theme=8c5c8e47-86dd-4e82-96b4-a49d00f0def9"
-        >Tidrapportering - Botorp</a
-      >
-    </li>
-    <li>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        class="dropdown-item"
-        href="https://www.fora.se/"
-        >Fora</a
-      >
-    </li>
-    <li>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        class="dropdown-item"
-        href="https://collectum.se/"
-        >Collectum</a
-      >
-    </li>
-  </ul>
-</div>
-</div>
-<div class="btn-group dropright" id="six">
-  <button
-    type="button"
-    class="btn btn-secondary dropdown-toggle"
-    data-toggle="dropdown"
-    aria-haspopup="true"
-    aria-expanded="false"
-  >
-  Upphandlingar och Ramavtal
-        </button>
-        <div class="dropdown-menu">
-          <ul>
-            <li>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                class="dropdown-item"
-                href="https://tendsign.com/"
-                >TendSign</a
-              >
-            </li>
-            <li>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                class="dropdown-item"
-                href="https://www.kommersannons.se/eLite/"
-                >Kommers Annons</a
-              >
-            </li>
-            <li>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                class="dropdown-item"
-                href="https://www.sklkommentus.se/"
-                >SKL Kommentus</a
-              >
-            </li>
-            <li>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                class="dropdown-item"
-                href="https://www.creditsafe.com/se/sv.html"
-                >Creditsafe</a
-              >
-            </li>
-          </ul>
-        </div>
-</div>
-<div class="btn-group dropright" id="seven">
-  <button
-    type="button"
-    class="btn btn-secondary dropdown-toggle"
-    data-toggle="dropdown"
-    aria-haspopup="true"
-    aria-expanded="false"
-  >
-  Telefon, Internet och Webmail
-</button>
-<div class="dropdown-menu">
-  <ul>
-    <li>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        class="dropdown-item"
-        href="https://www.telenor.se/foretag/sjalvbetjaning/"
-        >Telenor - Mobiler</a
-      >
-    </li>
-    <li>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        class="dropdown-item"
-        href="https://www.beebyte.se/"
-        >Beebyte - Webmail</a
-      >
-    </li>
-    <li>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        class="dropdown-item"
-        href="https://www.telia.se/privat"
-        >Telia - Internet/Fasta telefoner</a
-      >
-    </li>
-  </ul>
-</div>
-</div>
-<div class="btn-group dropright" id="eight">
-  <button
-    type="button"
-    class="btn btn-secondary dropdown-toggle"
-    data-toggle="dropdown"
-    aria-haspopup="true"
-    aria-expanded="false"
-  >
-  Löner och Personal
-</button>
-<div class="dropdown-menu">
-  <ul>
-    <li>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        class="dropdown-item"
-        href="https://sts.hogiacloud.se/adfs/ls"
-        >Hogia Cloud</a
-      >
-    </li>
-  </ul>
-</div>
-</div>
-<div class="btn-group dropright" id="nine">
-  <button
-    type="button"
-    class="btn btn-secondary dropdown-toggle"
-    data-toggle="dropdown"
-    aria-haspopup="true"
-    aria-expanded="false"
-  >
-  Digitala Möten
-</button>
-<div class="dropdown-menu">
-  <ul>
-    <li>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        class="dropdown-item"
-        href="https://www.microsoft.com/sv-se/microsoft-teams/download-app"
-        >Microsoft Teams</a
-      >
-    </li>
-  </ul>
-</div>
-</div>
-  </div>
-</body>
+/* button */
 
-<style>
-  #logo{
-    left: 34%;
-    top: 129px;
-    position: absolute;
-  }
+position: absolute;
+width: 227.28px;
+height: 110.72px;
+left: 359px;
+top: 171px;
 
-  .casator-logo{
-    width: 46%;
-  }
 
-  #one {
-    left: 40%;
-    height: 120px;
-    top: 1%;
-    width: 18%;
-  }
 
-  #two {
-    left: 3%;
-    height: 120px;
-    top: 90px;
-    width: 18%;
-  }
+/* Rectangle 10 */
 
-  #three {
-    left: 22%;
-    height: 120px;
-    top: 92px;
-    width: 18%;
-  }
+position: absolute;
+width: 227.28px;
+height: 110.72px;
+left: 359px;
+top: 171px;
 
-  #four {
-    height: 120px;
-    top: 246px;
-    left: -46%;
-    width: 18%;
-  }
+background: #AE2718;
 
-  #five {
-    height: 120px;
-    left: -3%;
-    top: 257px;
-    width: 18%;
-  }
 
-  #six {
-    height: 120px;
-    top: 326px;
-    left: -64%;
-    width: 18%;
-  }
+/* Reklam / PR / Trycksaker */
 
-  #seven {
-    height: 120px;
-    top: 301px;
-    left: 1%;
-    width: 18%;
-  }
+position: absolute;
+width: 227.28px;
+height: 20px;
+left: 359px;
+top: 246px;
 
-  #eight {
-    height: 120px;
-    top: 374px;
-    left: 3%;
-    width: 18%;
-  }
+font-family: Lato;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
 
-  #nine {
-    height: 120px;
-    top: 309px;
-    left: 5%;
-    width: 18%;
-  }
+color: #FFFFFF;
 
-  .wrapper {
-    position: relative;
-    width: 80%;
-    height: 674px;
-    margin: 0 auto;
-  }
 
-  .btn.btn-secondary.dropdown-toggle {
-    background: #790d08;
-    font-family: serif;
-    border-radius: 50%;
-    height: 170px;
-    width: 250px;
-    word-wrap: break-word;
-    white-space: normal;
-    border: 3px solid black;
-    opacity: 0.9;
-  }
-  .dropdown-menu.show {
-    background: white;
-    border: 3px solid black;
-  }
-  .dropdown-item {
-    color: black;
-    font-family: serif;
-    font-weight: bold;
-  }
-  ul {
-    list-style-type: square;
-  }
-</style>
+
+/* Group 1 */
+
+position: absolute;
+width: 27.68px;
+height: 27.68px;
+left: 459px;
+top: 193.14px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 32.26%;
+right: 66.59%;
+top: 18.86%;
+bottom: 80.19%;
+
+border: 2px solid #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 31.88%;
+right: 66.2%;
+top: 19.81%;
+bottom: 78.98%;
+
+border: 2px solid #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 32.26%;
+right: 66.59%;
+top: 20.48%;
+bottom: 78.44%;
+
+border: 2px solid #FFFFFF;
+
 {% endblock %}
