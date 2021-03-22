@@ -1,84 +1,284 @@
 {% extends 'portalen/base.html' %} {% load static %} {% block content %}
-/* button */
+<body>
+  <div class="grid-container">
+    <div class="btn-group dropright">
+      <button
+        id="grid-item"
+        class="item1"
+        type="button"
+        class="btn btn-secondary dropdown-toggle"
+        data-toggle="dropdown"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+      <svg class="svg1" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M6.536 10.832V1.14404H23.144V10.832" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M6.536 23.288H3.768C3.03388 23.288 2.32983 22.9964 1.81072 22.4773C1.29162 21.9582 0.999996 21.2542 0.999996 20.52V13.6C0.999996 12.8659 1.29162 12.1619 1.81072 11.6428C2.32983 11.1237 3.03388 10.832 3.768 10.832H25.912C26.6461 10.832 27.3502 11.1237 27.8693 11.6428C28.3884 12.1619 28.68 12.8659 28.68 13.6V20.52C28.68 21.2542 28.3884 21.9582 27.8693 22.4773C27.3502 22.9964 26.6461 23.288 25.912 23.288H23.144" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M23.144 17.7521H6.536V28.8241H23.144V17.7521Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        
+        Reklam / PR / Trycksaker
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+      </div>
+    </div>
+    <div class="btn-group dropright">
+      <button
+        id="grid-item"
+        class="item2"
+        type="button"
+        class="btn btn-secondary dropdown-toggle"
+        data-toggle="dropdown"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+      <svg class="svg2" width="19" height="34" viewBox="0 0 19 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M9.58492 1.76001V32.208" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M16.5049 7.29602H6.12491C4.84021 7.29602 3.60812 7.80637 2.69969 8.7148C1.79126 9.62322 1.28091 10.8553 1.28091 12.14C1.28091 13.4247 1.79126 14.6568 2.69969 15.5652C3.60812 16.4737 4.84021 16.984 6.12491 16.984H13.0449C14.3296 16.984 15.5617 17.4944 16.4701 18.4028C17.3786 19.3112 17.8889 20.5433 17.8889 21.828C17.8889 23.1127 17.3786 24.3448 16.4701 25.2532C15.5617 26.1617 14.3296 26.672 13.0449 26.672H1.28091" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        
+        Ekonomi och Bokföring
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+      </div>
+    </div>
+    <div class="btn-group dropright">
+      <button
+        id="grid-item"
+        class="item3"
+        type="button"
+        class="btn btn-secondary dropdown-toggle"
+        data-toggle="dropdown"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+      <svg class="svg3" width="30" height="32" viewBox="0 0 30 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M28.1835 15.2852L15.4646 28.0042C13.9064 29.5624 11.7931 30.4377 9.5895 30.4377C7.38592 30.4377 5.27259 29.5624 3.71442 28.0042C2.15625 26.446 1.28088 24.3327 1.28088 22.1291C1.28088 19.9255 2.15625 17.8122 3.71442 16.254L16.4334 3.53508C17.4722 2.4963 18.881 1.91272 20.3501 1.91272C21.8192 1.91272 23.228 2.4963 24.2668 3.53508C25.3056 4.57386 25.8892 5.98274 25.8892 7.4518C25.8892 8.92085 25.3056 10.3297 24.2668 11.3685L11.534 24.0875C11.0146 24.6069 10.3102 24.8987 9.57566 24.8987C8.84113 24.8987 8.13669 24.6069 7.6173 24.0875C7.09791 23.5681 6.80612 22.8636 6.80612 22.1291C6.80612 21.3946 7.09791 20.6901 7.6173 20.1708L19.3675 8.43444" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        
+        Förbrukningsmaterial och Kontor
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+      </div>
+    </div>
+    <div class="btn-group dropright">
+      <button
+        id="grid-item"
+        class="item4"
+        type="button"
+        class="btn btn-secondary dropdown-toggle"
+        data-toggle="dropdown"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+      <svg class="svg4" width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M14.84 1.04004H3.768C3.03388 1.04004 2.32983 1.33167 1.81073 1.85077C1.29163 2.36987 1 3.07392 1 3.80804V25.952C1 26.6862 1.29163 27.3902 1.81073 27.9093C2.32983 28.4284 3.03388 28.72 3.768 28.72H20.376C21.1101 28.72 21.8142 28.4284 22.3333 27.9093C22.8524 27.3902 23.144 26.6862 23.144 25.952V9.34404L14.84 1.04004Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M14.84 1.04004V9.34404H23.144" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M17.608 16.264H6.53597" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M17.608 21.8H6.53597" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M9.30397 10.728H7.91997H6.53597" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        
+        Dokumentation och Avvikelser
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+      </div>
+    </div>
+    <div class="btn-group dropright">
+      <button
+        id="grid-item"
+        class="item5"
+        type="button"
+        class="btn btn-secondary dropdown-toggle"
+        data-toggle="dropdown"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+      <svg class="svg5" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M14.8401 28.7759C22.4837 28.7759 28.6801 22.5796 28.6801 14.9359C28.6801 7.29233 22.4837 1.09595 14.8401 1.09595C7.19647 1.09595 1.00009 7.29233 1.00009 14.9359C1.00009 22.5796 7.19647 28.7759 14.8401 28.7759Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M14.8401 6.63196V14.936L20.3761 17.704" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        
+        Tidsrapportering och Schema
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+      </div>
+    </div>
+    <div class="btn-group dropright">
+      <button
+        id="grid-item"
+        class="item6"
+        type="button"
+        class="btn btn-secondary dropdown-toggle"
+        data-toggle="dropdown"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+      <svg class="svg6" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M14.8401 28.7759C22.4837 28.7759 28.6801 22.5796 28.6801 14.9359C28.6801 7.29233 22.4837 1.09595 14.8401 1.09595C7.1965 1.09595 1.00012 7.29233 1.00012 14.9359C1.00012 22.5796 7.1965 28.7759 14.8401 28.7759Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M1.00012 14.9359H28.6801" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M14.8401 1.09595C18.3019 4.88583 20.2692 9.80412 20.3761 14.9359C20.2692 20.0678 18.3019 24.9861 14.8401 28.7759C11.3784 24.9861 9.41105 20.0678 9.30414 14.9359C9.41105 9.80412 11.3784 4.88583 14.8401 1.09595V1.09595Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        
+        Telefon, Internet och Webmail
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+      </div>
+    </div>
+    <div class="btn-group dropright">
+      <button
+        id="grid-item"
+        class="item7"
+        type="button"
+        class="btn btn-secondary dropdown-toggle"
+        data-toggle="dropdown"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+      <svg class="svg7" width="30" height="26" viewBox="0 0 30 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0.999992 18.6343C2.32987 18.9056 3.55062 19.5619 4.51034 20.5216C5.47007 21.4813 6.12637 22.7021 6.39759 24.0319M0.999992 13.0291C3.8106 13.3417 6.43119 14.6014 8.43085 16.6011C10.4305 18.6007 11.6902 21.2213 12.0028 24.0319M0.999992 7.42394V4.65594C0.999992 3.92182 1.29162 3.21777 1.81072 2.69867C2.32982 2.17957 3.03387 1.88794 3.76799 1.88794H25.912C26.6461 1.88794 27.3502 2.17957 27.8693 2.69867C28.3884 3.21777 28.68 3.92182 28.68 4.65594V21.2639C28.68 21.9981 28.3884 22.7021 27.8693 23.2212C27.3502 23.7403 26.6461 24.0319 25.912 24.0319H17.608" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M0.999996 24.032H1.01362" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        
+        Digitala Möten
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+      </div>
+    </div>
+    <div class="btn-group dropright">
+      <button
+        id="grid-item"
+        class="item8"
+        type="button"
+        class="btn btn-secondary dropdown-toggle"
+        data-toggle="dropdown"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+      <svg class="svg8" width="33" height="28" viewBox="0 0 33 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M23.1441 26.4159V23.6479C23.1441 22.1797 22.5608 20.7716 21.5226 19.7334C20.4844 18.6952 19.0763 18.1119 17.6081 18.1119H6.53606C5.06782 18.1119 3.65972 18.6952 2.62152 19.7334C1.58332 20.7716 1.00006 22.1797 1.00006 23.6479V26.4159" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M12.0721 12.5759C15.1295 12.5759 17.6081 10.0974 17.6081 7.03991C17.6081 3.98246 15.1295 1.50391 12.0721 1.50391C9.01461 1.50391 6.53606 3.98246 6.53606 7.03991C6.53606 10.0974 9.01461 12.5759 12.0721 12.5759Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M31.4481 26.4159V23.6479C31.4472 22.4213 31.0389 21.2298 30.2874 20.2604C29.5359 19.2909 28.4837 18.5985 27.2961 18.2919" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M21.7601 1.68384C22.9509 1.98873 24.0063 2.68129 24.7601 3.65232C25.5138 4.62334 25.9229 5.81761 25.9229 7.04684C25.9229 8.27607 25.5138 9.47033 24.7601 10.4414C24.0063 11.4124 22.9509 12.1049 21.7601 12.4098" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        
+        Löner och Personal
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+      </div>
+    </div>
+  </div>
 
-position: absolute;
-width: 227.28px;
-height: 110.72px;
-left: 359px;
-top: 171px;
+  <style>
+    #grid-item {
+      width: 250px;
+      height: 150px;
+      position: absolute;
+      background: #ae2718;
+      border: 2px solid black;
 
+      font-family: Lato;
+      font-style: serif;
+      font-size: 18px;
+      text-align: center;
 
+      color: #ffffff;
+    }
+    .grid-container {
+      position: absolute;
+      width: 1440px;
+      height: 750px;
+      left: 270px;
+      top: 171px;
+    }
 
-/* Rectangle 10 */
+    .item1 {
+      left: 250px;
+      top: 0px;
+    }
+    .svg1 {
+      position: absolute;
+      left: 110px;
+      top: 10px;
+    }
 
-position: absolute;
-width: 227.28px;
-height: 110.72px;
-left: 359px;
-top: 171px;
+    .item2 {
+      left: 580px;
+      top: 0px;
+    }
+    .svg2 {
+      position: absolute;
+      left: 110px;
+      top: 10px;
+    }
 
-background: #AE2718;
+    .item3 {
+      left: 900px;
+      top: 0px;
+    }
+    .svg3 {
+      position: absolute;
+      left: 110px;
+      top: 10px;
+    }
 
+    .item4 {
+      left: 238px;
+      top: 190px;
+    }
+    .svg4 {
+      position: absolute;
+      left: 110px;
+      top: 10px;
+    }
 
-/* Reklam / PR / Trycksaker */
+    .item5 {
+      left: 568px;
+      top: 190px;
+    }
+    .svg5 {
+      position: absolute;
+      left: 110px;
+      top: 10px;
+    }
 
-position: absolute;
-width: 227.28px;
-height: 20px;
-left: 359px;
-top: 246px;
+    .item6 {
+      left: 888px;
+      top: 190px;
+    }
+    .svg6 {
+      position: absolute;
+      left: 110px;
+      top: 10px;
+    }
 
-font-family: Lato;
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 17px;
-text-align: center;
+    .item7 {
+      left: 226px;
+      top: 380px;
+    }
+    .svg7 {
+      position: absolute;
+      left: 110px;
+      top: 10px;
+    }
 
-color: #FFFFFF;
-
-
-
-/* Group 1 */
-
-position: absolute;
-width: 27.68px;
-height: 27.68px;
-left: 459px;
-top: 193.14px;
-
-
-
-/* Vector */
-
-position: absolute;
-left: 32.26%;
-right: 66.59%;
-top: 18.86%;
-bottom: 80.19%;
-
-border: 2px solid #FFFFFF;
-
-
-/* Vector */
-
-position: absolute;
-left: 31.88%;
-right: 66.2%;
-top: 19.81%;
-bottom: 78.98%;
-
-border: 2px solid #FFFFFF;
-
-
-/* Vector */
-
-position: absolute;
-left: 32.26%;
-right: 66.59%;
-top: 20.48%;
-bottom: 78.44%;
-
-border: 2px solid #FFFFFF;
-
+    .item8 {
+      left: 556px;
+      top: 380px;
+    }
+    .svg8 {
+      position: absolute;
+      left: 110px;
+      top: 10px;
+    }
+  </style>
+</body>
 {% endblock %}
