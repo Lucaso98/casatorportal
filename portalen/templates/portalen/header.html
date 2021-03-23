@@ -17,29 +17,114 @@
     /* Rectangle 3 */
 
     background: url("/static/images/logo.png");
-    background-size: 100% auto;
+    background-size: 150% auto;
     position: absolute;
-    width: 122.67px;
-    height: 129.29px;
-    left: 359px;
+    width: 100.67px;
+    height: 99.29px;
+    left: 464px;
+    top: -25px;
   }
   .title {
     /* Casatorportalen */
-
     position: absolute;
     width: 119.02px;
     height: 19.38px;
-    left: 556.58px;
+    left: 592px;
     top: 27.91px;
     font-style: normal;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 23px;
     line-height: 18px;
     color: #121212;
+  }
+  .logout-container {
+    /* Rectangle 11 */
+
+    position: absolute;
+    width: 184px;
+    height: 80px;
+    left: 1245px;
+    top: 0px;
+    background: #f7f7f7;
+  }
+  .logout-icon {
+    position: absolute;
+    width: 35px;
+    height: 30px;
+    left: 142.1px;
+    top: 25px;
+  }
+  .btn {
+    position: absolute;
+    width: 204.66px;
+    height: 83.38px;
+    left: -22px;
+    top: -1px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 66px;
+    color: #ae2718;
+  }
+  .logout-underscore {
+    position: absolute;
+    width: 75px;
+    height: 0px;
+    left: 45px;
+    top: 58px;
+    border: 1px solid #ae2718;
   }
 </style>
 
 <nav class="navbar">
   <div class="container"></div>
   <h2 class="title">Casatorportalen</h2>
+  <div class="logout-container">
+    <a class="btn" href="{% url 'logout' %}" type="button">Logga ut</a>
+    <svg
+      class="logout-icon"
+      width="27"
+      height="27"
+      viewBox="0 0 27 27"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M9.40794 26.056H3.87194C3.13782 26.056 2.43377 25.7644 1.91467 25.2453C1.39557 24.7262 1.10394 24.0222 1.10394 23.288V3.91204C1.10394 3.17792 1.39557 2.47387 1.91467 1.95477C2.43377 1.43567 3.13782 1.14404 3.87194 1.14404H9.40794"
+        stroke="#AE2718"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M19.0959 20.5201L26.0159 13.6001L19.0959 6.68005"
+        stroke="#AE2718"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M26.016 13.6H9.40796"
+        stroke="#AE2718"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+    <svg
+      class="logout-underscore"
+      width="63"
+      height="2"
+      viewBox="0 0 63 2"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1.44797 0.671997H62.344"
+        stroke="#AE2718"
+        stroke-linecap="round"
+      />
+    </svg>
+  </div>
 </nav>
