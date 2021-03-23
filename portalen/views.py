@@ -22,7 +22,6 @@ def login_page(request):
             if user is not None:
                 login(request, user)
                 return redirect('home')
-                
 
         return render(request, 'registration/login.html')
 
