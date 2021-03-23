@@ -1,0 +1,111 @@
+#grid-item {
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    background: #ae2718;
+    border: 2px solid black;
+
+    font-family: Lato;
+    font-style: serif;
+    font-size: 18px;
+    text-align: center;
+
+    color: #ffffff;
+  }
+  .grid-container {
+    position: absolute;
+    width: 1440px;
+    height: 750px;
+    left: 270px;
+    top: 171px;
+  }
+
+  .item1 {
+    left: 250px;
+    top: 0px;
+  }
+  .svg1 {
+    position: absolute;
+    left: 110px;
+    top: 10px;
+  }
+
+  .item2 {
+    left: 580px;
+    top: 0px;
+  }
+  .svg2 {
+    position: absolute;
+    left: 110px;
+    top: 10px;
+  }
+
+  .item3 {
+    left: 900px;
+    top: 0px;
+  }
+  .svg3 {
+    position: absolute;
+    left: 110px;
+    top: 10px;
+  }
+
+  .item4 {
+    left: 238px;
+    top: 190px;
+  }
+  .svg4 {
+    position: absolute;
+    left: 110px;
+    top: 10px;
+  }
+
+  .item5 {
+    left: 568px;
+    top: 190px;
+  }
+  .svg5 {
+    position: absolute;
+    left: 110px;
+    top: 10px;
+  }
+
+  .item6 {
+    left: 888px;
+    top: 190px;
+  }
+  .svg6 {
+    position: absolute;
+    left: 110px;
+    top: 10px;
+  }
+
+  .item7 {
+    left: 226px;
+    top: 380px;
+  }
+  .svg7 {
+    position: absolute;
+    left: 110px;
+    top: 10px;
+  }
+
+  .item8 {
+    left: 556px;
+    top: 380px;
+  }
+  .svg8 {
+    position: absolute;
+    left: 110px;
+    top: 10px;
+  }
+  .item9 {
+    left: 878px;
+    top: 380px;
+  }
+  .svg9 {
+    position: absolute;
+    left: 103px;
+    top: 10px;
+    height: 30px;
+  }
