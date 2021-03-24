@@ -4,20 +4,25 @@
     background: #ffffff;
     box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
   }
+  .header-wrapper{
+    width: 940px;
+    height: 88px;
+    margin: 0px auto;
+  }
   .container {
     background: url("/static/images/logo.png");
     background-size: 150% auto;
     position: absolute;
     width: 100.67px;
     height: 99.29px;
-    left: 464px;
+    left: 769px;
     top: -25px;
   }
   .title {
     position: absolute;
     width: 119.02px;
     height: 19.38px;
-    left: 592px;
+    left: 881px;
     top: 27.91px;
     font-style: normal;
     font-weight: 600;
@@ -29,7 +34,7 @@
     position: absolute;
     width: 184px;
     height: 80px;
-    left: 1245px;
+    left: 1532px;
     top: 0px;
     background: #f7f7f7;
   }
