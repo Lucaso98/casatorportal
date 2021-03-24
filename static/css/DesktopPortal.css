@@ -15,8 +15,8 @@
   .grid-container {
     width: 1440px;
     height: 750px;
-    position: relative;
-  }
+    margin: 0 auto;  
+}
   .item1 {
     left: 250px;
     top: 0px;
