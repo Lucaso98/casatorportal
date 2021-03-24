@@ -13,11 +13,9 @@
     color: #ffffff;
   }
   .grid-container {
-    position: absolute;
     width: 1440px;
     height: 750px;
-    left: 270px;
-    top: 171px;
+    margin: 0 auto;
   }
   .item1 {
     left: 250px;
