@@ -69,6 +69,7 @@
   }
 }
 
+
 @media (min-width: 834px) {
   .navbar-portal {
     width: 100%;
@@ -138,6 +139,7 @@
     border: 1px solid #ae2718;
   }
 }
+
 
 @media (min-width: 500px) {
   .navbar-portal {

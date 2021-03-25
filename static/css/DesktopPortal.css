@@ -102,6 +102,7 @@
   }
 }
 
+
 @media (min-width: 834px) {
   #grid-item {
     width: 250px;
@@ -202,6 +203,7 @@
     height: 30px;
   }
 }
+
 
 @media (min-width: 500px) {
   #grid-item {
