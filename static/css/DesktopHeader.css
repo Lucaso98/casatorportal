@@ -77,7 +77,7 @@
       box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
     }
     .header-wrapper{
-      width: 1440px;
+      width: 834px;
       height: 80px;
       margin: 0px auto;
     }
@@ -87,14 +87,14 @@
       position: relative;
       width: 100.67px;
       height: 99.29px;
-      left: -470px;
+      left: -382px;
       top: -25px;
     }
     .title {
       position: relative;
       width: 119.02px;
       height: 19.38px;
-      left: 329px;
+      left: 120px;
       top: -69.09px;
       font-style: normal;
       font-weight: 600;
@@ -106,9 +106,8 @@
       position: relative;
       width: 184px;
       height: 80px;
-      left: 974px;
+      left: 649px;
       top: -126px;
-      background: #f7f7f7;
     }
     .logout-icon {
       position: absolute;
