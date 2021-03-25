@@ -203,9 +203,9 @@
     }
 }
 
-@media(min-width: 375px){
+@media(min-width: 500px){
     #grid-item {
-      width: 250px;
+      width: 230px;
       height: 140px;
       position: absolute;
       background: #ae2718;
@@ -216,7 +216,7 @@
       color: #ffffff;
       }
       .grid-container {
-        width: 834px;
+        width: 500px;
         height: 705px;
         margin: 25px auto;
     }
@@ -226,79 +226,79 @@
       }
       .svg1 {
         position: absolute;
-        left: 110px;
+        left: 100px;
         top: 10px;
       }
       .item2 {
-        left: 290px;
+        left: 245px;
       top: 0px;
       }
       .svg2 {
         position: absolute;
-        left: 110px;
+        left: 100px;
         top: 10px;
       }
       .item3 {
-        left: 560px;
-        top: 0px;
+        left: 2px;
+        top: 170px;
       }
       .svg3 {
         position: absolute;
-        left: 110px;
+        left: 100px;
         top: 10px;
       }
       .item4 {
-        left: -2px;
+        left: 236px;
         top: 170px;
       }
       .svg4 {
         position: absolute;
-        left: 110px;
+        left: 100px;
         top: 10px;
       }
       .item5 {
-        left: 277px;
-        top: 170px;
+        left: -6px;
+        top: 340px;
       }
       .svg5 {
         position: absolute;
-        left: 110px;
+        left: 100px;
         top: 10px;
       }
       .item6 {
-        left: 548px;
-        top: 170px;
+        left: 227px;
+        top: 340px;
       }
       .svg6 {
         position: absolute;
-        left: 110px;
+        left: 100px;
         top: 10px;
       }
       .item7 {
         left: -14px;
-        top: 340px;
+        top: 510px;
       }
       .svg7 {
         position: absolute;
-        left: 110px;
+        left: 100px;
         top: 10px;
       }
       .item8 {
-        left: 265px;
-        top: 340px;
+        left: 219px;
+        top: 510px;
       }
       .svg8 {
         position: absolute;
-        left: 110px;
+        left: 100px;
         top: 10px;
       }
       .item9 {
-        left: 537px;
-        top: 340px;
+        left: -23px;
+        top: 670px;
       }
       .svg9 {
         position: absolute;
-        left: 103px;
+        left: 92px;
         top: 10px;
         height: 30px;
       }
