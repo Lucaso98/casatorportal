@@ -16,18 +16,18 @@
     position: relative;
     width: 100.67px;
     height: 99.29px;
-    left: -232px;
+    left: -202px;
     top: -25px;
   }
   .title {
     position: relative;
     width: 119.02px;
     height: 19.38px;
-    left: 88px;
+    left: 45px;
     top: -69.09px;
     font-style: normal;
     font-weight: 600;
-    font-size: 23px;
+    font-size: 20px;
     line-height: 18px;
     color: #121212;
   }
@@ -35,7 +35,7 @@
     position: relative;
     width: 184px;
     height: 80px;
-    left: 298px;
+    left: 238px;
     top: -126px;
   }
   .logout-icon {
