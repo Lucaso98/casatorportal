@@ -14,40 +14,40 @@
     background: url("/static/images/logo.png");
     background-size: 150% auto;
     position: relative;
-    width: 100.67px;
+    width: 93.67px;
     height: 99.29px;
-    left: -202px;
-    top: -25px;
+    left: -172px;
+    top: -20px;
   }
   .title {
     position: relative;
     width: 119.02px;
     height: 19.38px;
-    left: 45px;
+    left: 75px;
     top: -69.09px;
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 18px;
     color: #121212;
   }
   .logout-container {
     position: relative;
-    width: 184px;
+    width: 124px;
     height: 80px;
     left: 238px;
     top: -126px;
   }
   .logout-icon {
     position: absolute;
-    width: 35px;
+    width: 20px;
     height: 30px;
-    left: 142.1px;
+    left: 98.1px;
     top: 25px;
   }
   .btn {
     position: absolute;
-    width: 204.66px;
+    width: 140.66px;
     height: 83.38px;
     left: -22px;
     top: -1px;
@@ -62,7 +62,7 @@
     position: absolute;
     width: 75px;
     height: 0px;
-    left: 45px;
+    left: 13px;
     top: 58px;
     border: 1px solid #ae2718;
   }

@@ -1,12 +1,12 @@
 @media only screen and (min-width: 375px){
   #grid-item {
-    width: 230px;
+    width: 150px;
     height: 140px;
     position: absolute;
     background: #ae2718;
     border: 2px solid black;
     font-style: normal;
-    font-size: 18px;
+    font-size: 11px;
     text-align: center;
     color: #ffffff;
   }
@@ -16,12 +16,12 @@
     margin: 25px auto;
   }
   .item1 {
-    left: -30px;
+    left: 20px;
     top: 0px;
   }
   .svg1 {
     position: absolute;
-    left: 85px;
+    left: 60px;
     top: 10px;
   }
   .item2 {
@@ -30,16 +30,16 @@
   }
   .svg2 {
     position: absolute;
-    left: 85px;    
+    left: 60px;
     top: 10px;
   }
   .item3 {
-    left: -38px;
+    left: 12px;
     top: 150px;
   }
   .svg3 {
     position: absolute;
-    left: 85px;
+    left: 60px;
     top: 10px;
   }
   .item4 {
@@ -48,16 +48,16 @@
   }
   .svg4 {
     position: absolute;
-    left: 85px;
+    left: 60px;
     top: 10px;
   }
   .item5 {
-    left: -46px;
+    left: 4px;
     top: 300px;
   }
   .svg5 {
     position: absolute;
-    left: 85px;
+    left: 60px;
     top: 10px;
   }
   .item6 {
@@ -66,16 +66,16 @@
   }
   .svg6 {
     position: absolute;
-    left: 85px;
+    left: 60px;
     top: 10px;
   }
   .item7 {
-    left: -54px;
+    left: -4px;
     top: 450px;
   }
   .svg7 {
     position: absolute;
-    left: 85px;
+    left: 60px;
     top: 10px;
   }
   .item8 {
@@ -84,19 +84,18 @@
   }
   .svg8 {
     position: absolute;
-    left: 85px;
+    left: 60px;
     top: 10px;
   }
   .item9 {
-    left: -73px;
+    left: -13px;
     top: 600px;
   }
   .svg9 {
     position: absolute;
-    left: 77px;
+    left: 53px;
     top: 10px;
     height: 30px;
-  }
 }
 
 
