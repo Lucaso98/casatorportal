@@ -1,4 +1,4 @@
-@media (min-width: 500px) {
+@media (min-width: 375px) {
   #grid-item {
     width: 230px;
     height: 140px;
@@ -11,7 +11,7 @@
     color: #ffffff;
   }
   .grid-container {
-    width: 500px;
+    width: 375px;
     height: 705px;
     margin: 25px auto;
   }
