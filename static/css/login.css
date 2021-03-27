@@ -8,11 +8,11 @@ html, body{
   display: flex;
 }
 .login-wrapper {
-  width: 32.875rem;
-  height: 36.563rem;
-  background: rgba(255, 255, 255, 0.2);
-  margin: 0 auto;
-  margin-top: 12rem;
+    width: 30%;
+    height: 60%;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 0 auto;
+    margin-top: 10%;
 }
 .logo-container{
     background: url("/static/images/logo.png");
