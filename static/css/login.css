@@ -16,7 +16,7 @@ html, body{
 }
 .logo-container{
     background: url("/static/images/logo.png");
-    width: 46%;
+    width: 41%;
     height: 50%;
     background-size: 240px auto;
     margin: 0 auto;
