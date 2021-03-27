@@ -1,107 +1,38 @@
-{% extends 'portalen/loginbase.html' %} {% block content %}
-<hr />
+{% extends 'portalen/loginbase.html' %} {% block content %} {% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="{% static 'css/login.css' %}" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
 
-<link
-  href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-  id="bootstrap-css"
-  rel="stylesheet"
-/>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
-
-<style>
-  #login {
-    background: darkred;
-    border: 3px solid black;
-    font-family: serif;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-  }
-  .container {
-    height: 599px;
-  }
-  pre {
-    display: block;
-    color: #ffffff;
-    font: unset;
-  }
-  .text-info {
-    color: white !important;
-    font-family: serif;
-  }
-  .btn-info {
-    color: black;
-    background-color: white;
-    border: 2px solid black;
-  }
-  #password.form-control {
-    border: 2px solid black;
-  }
-  #username.form-control {
-    border: 2px solid black;
-  }
-  #messages {
-    color: white;
-  }
-</style>
-
-<body>
-  <div id="login">
-    <div class="container">
-      <div class="row justify-content-center align-items-center" id="login-row">
-        <div class="col-md-6" id="login-column">
-          <div class="col-md-12" id="login-box">
-            <form action="" class="form" id="login-form" method="post">
-              {% csrf_token %}
-              <pre>
-
-
-Välkommen!
-Denna portal är till för anställda i Casator Care.
-              
-Letar du efter Casator Cares hemsida så hittar du den på
-<a href="https://casatorcare.se/">casatorcare.se</a>. Där finns information om våra verksamheter, samt
-information om hur du kommer i kontakt med oss.
-              
-Är du anställd i Casator så loggar du in här nedanför.
-Användarnamn och lösenord får du av din verksamhetschef.
-            </pre>
-              <h3 class="text-center text-info">Logga in</h3>
-              <div class="form-group">
-                <label class="text-info" for="username">Användarnamn:</label
-                ><br />
-                <input
-                  class="form-control"
-                  id="username"
-                  name="username"
-                  type="text"
-                />
-              </div>
-              <div class="form-group">
-                <label class="text-info" for="password">Lösenord:</label><br />
-                <input
-                  class="form-control"
-                  id="password"
-                  name="password"
-                  type="password"
-                />
-                <br />
-
-                <input
-                  class="btn btn-info btn-md"
-                  name="submit"
-                  type="submit"
-                  value="Logga in"
-                />
-              </div>
-            </form>
-          </div>
-        </div>
+  <body>
+    <div class="flex-container">
+      <div class="login-wrapper">
+        <div class="logo-container"></div>
+        <form action="" class="form" id="login-form" method="POST">
+          {% csrf_token %}
+          <input
+            id="username"
+            name="username"
+            type="text"
+            placeholder="Användarnamn"
+          />
+          <hr class="username-line">
+          <input
+            id="password"
+            name="password"
+            type="password"
+            placeholder="Lösenord"
+          />
+          <hr class="password-line">
+          <input class="login-button" name="submit" type="submit" value="Logga In">
+        </form>
       </div>
     </div>
-  </div>
-</body>
+  </body>
+</html>
 
 {% endblock %}
