@@ -1,34 +1,36 @@
-html, body{
-    height: 100%;
-}
-.flex-container {
-  width: 100%;
+html,
+body {
   height: 100%;
-  background: url("/static/images/backgroundCastle.jpg");
-  display: flex;
 }
-.login-wrapper {
+@media (min-width: 1440px) {
+  .flex-container {
+    width: 100%;
+    height: 100%;
+    background: url("/static/images/backgroundCastle.jpg");
+    display: flex;
+  }
+  .login-wrapper {
     width: 30%;
     height: 60%;
     background: rgba(255, 255, 255, 0.5);
     margin: 0 auto;
     margin-top: 9%;
-}
-.logo-container{
+  }
+  .logo-container {
     background: url("/static/images/logo.png");
     width: 41%;
     height: 50%;
     background-size: 240px auto;
     margin: 0 auto;
-}
-.form{
+  }
+  .form {
     position: absolute;
     top: 50%;
     left: 44%;
     height: 40%;
     width: 13.1%;
-}
-#username{
+  }
+  #username {
     width: 100%;
     background: transparent;
     border: transparent;
@@ -38,8 +40,8 @@ html, body{
     top: -20%;
     font-size: 20px;
     text-align: center;
-}
-#password{
+  }
+  #password {
     width: 100%;
     background: transparent;
     border: transparent;
@@ -49,8 +51,8 @@ html, body{
     top: -4%;
     font-size: 20px;
     text-align: center;
-}
-.login-button {
+  }
+  .login-button {
     border-radius: 15px;
     width: 6.25rem;
     height: 3.125rem;
@@ -61,16 +63,17 @@ html, body{
     position: absolute;
     left: 47.9%;
     top: 55%;
-}
-.username-line{
+  }
+  .username-line {
     border-top: 2px solid white;
     width: 15.625rem;
     position: absolute;
     top: -12%;
-}
-.password-line{
+  }
+  .password-line {
     border-top: 2px solid white;
     width: 15.625rem;
     position: absolute;
     top: 4%;
+  }
 }
