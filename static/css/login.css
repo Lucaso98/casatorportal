@@ -23,13 +23,13 @@ body {
     height: 250px;
     background-size: 250px auto;
     position: relative;
-    left: 31%;
+    left: 20%;
     top: 40px;
   }
   .form {
     position: relative;
     top: 10%;
-    left: 31%;
+    left: 19%;
     height: 40%;
     width: 250px;
   }
@@ -64,7 +64,7 @@ body {
     font-size: 18px;
     font-family: sans-serif;
     position: relative;
-    left: 44%;
+    left: 38%;
     top: -15%;
   }
   .username-line {
