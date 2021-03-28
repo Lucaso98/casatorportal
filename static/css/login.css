@@ -11,12 +11,13 @@ body {
     background-position-x: center;
   }
   .login-wrapper {
-    width: 600px;
+    width: 620px;
     height: 620px;
     background: rgba(255, 255, 255, 0.5);
     margin: 0 auto;
     margin-top: 150px;
   }
+  
   .logo-container {
     background: url("/static/images/logo.png");
     width: 620px;
@@ -29,6 +30,7 @@ body {
     height: 40%;
     width: 250px;
     margin: 0 auto;
+    margin-top: -3%;
   }
   #username {
     width: 100%;
@@ -37,7 +39,7 @@ body {
     outline: transparent;
     height: 11%;
     position: relative;
-    top: -10%;
+    top: 9%;
     font-size: 20px;
     text-align: center;
   }
@@ -48,7 +50,7 @@ body {
     outline: transparent;
     height: 11%;
     position: relative;
-    top: -9%;
+    top: 7%;
     font-size: 20px;
     text-align: center;
   }
@@ -62,18 +64,17 @@ body {
     font-family: sans-serif;
     margin-left: 30%;
 }
-  
   .username-line {
     border-top: 2px solid white;
     width: 255px;
     position: relative;
-    top: -12%;
+    top: 5%;
   }
   .password-line {
     border-top: 2px solid white;
     width: 255px;
     position: relative;
-    top: -15%;
+    top: 1%;
   }
 }
 
@@ -92,17 +93,20 @@ body {
     margin: 0 auto;
     margin-top: 150px;
   }
+  
   .logo-container {
     background: url("/static/images/logo.png");
-    width: 250px;
-    height: 250px;
-    background-size: 250px auto;
+    width: 620px;
+    height: 620px;
+    background: rgba(255, 255, 255, 0.5);
     margin: 0 auto;
+    margin-top: 150px;
   }
   .form {
     height: 40%;
     width: 250px;
     margin: 0 auto;
+    margin-top: -3%;
   }
   #username {
     width: 100%;
@@ -111,7 +115,7 @@ body {
     outline: transparent;
     height: 11%;
     position: relative;
-    top: -10%;
+    top: 9%;
     font-size: 20px;
     text-align: center;
   }
@@ -122,7 +126,7 @@ body {
     outline: transparent;
     height: 11%;
     position: relative;
-    top: -9%;
+    top: 7%;
     font-size: 20px;
     text-align: center;
   }
@@ -134,20 +138,19 @@ body {
     border: 2px solid black;
     font-size: 18px;
     font-family: sans-serif;
-    margin: 0 auto;
     margin-left: 30%;
-  }
+}
   .username-line {
     border-top: 2px solid white;
     width: 255px;
     position: relative;
-    top: -12%;
+    top: 5%;
   }
   .password-line {
     border-top: 2px solid white;
     width: 255px;
     position: relative;
-    top: -15%;
+    top: 1%;
   }
 }
 
@@ -166,16 +169,20 @@ body {
     margin: 0 auto;
     margin-top: 150px;
   }
+  
   .logo-container {
     background: url("/static/images/logo.png");
-    width: 250px;
-    height: 250px;
-    background-size: 250px auto;
+    width: 620px;
+    height: 620px;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+    margin-top: 150px;
   }
   .form {
     height: 40%;
     width: 250px;
     margin: 0 auto;
+    margin-top: -3%;
   }
   #username {
     width: 100%;
@@ -184,7 +191,7 @@ body {
     outline: transparent;
     height: 11%;
     position: relative;
-    top: -10%;
+    top: 9%;
     font-size: 20px;
     text-align: center;
   }
@@ -195,7 +202,7 @@ body {
     outline: transparent;
     height: 11%;
     position: relative;
-    top: -9%;
+    top: 7%;
     font-size: 20px;
     text-align: center;
   }
@@ -208,17 +215,17 @@ body {
     font-size: 18px;
     font-family: sans-serif;
     margin-left: 30%;
-  }
+}
   .username-line {
     border-top: 2px solid white;
     width: 255px;
     position: relative;
-    top: -12%;
+    top: 5%;
   }
   .password-line {
     border-top: 2px solid white;
     width: 255px;
     position: relative;
-    top: -15%;
+    top: 1%;
   }
 }
