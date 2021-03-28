@@ -12,7 +12,6 @@ def portal_page(request):
 
 def login_page(request):
     if request.method == 'POST':
-        form = AuthenticationForm(request.POST)
         username = request.POST.get('username')
         password = request.POST.get('password')
         user = authenticate(request, username=username, password=password)
@@ -24,9 +23,8 @@ def login_page(request):
         else:
             messages.error(request, 'Användarnamn ELLER Lösenord är inkorrekt')
             return redirect('login')
-    else:
-        form = AuthenticationForm()
-    return render(request, 'registration/login.html', {'form': form})
+
+    return render(request, 'registration/login.html')
 
 
 def logout_user(request):
