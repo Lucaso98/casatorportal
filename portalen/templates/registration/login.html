@@ -41,9 +41,7 @@
             value="Logga In"
           />
         </form>
-        {% for message in messages %}
-        <div class="messages">{{ message }}</div>
-        {% endfor %}
+        {{ form.errors }}
       </div>
     </div>
   </body>

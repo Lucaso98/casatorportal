@@ -20,9 +20,6 @@ def login_page(request):
             if user.is_active:
                 auth_login(request, user)
                 return redirect('home')
-        else:
-            messages.error(request, 'Användarnamn ELLER Lösenord är inkorrekt')
-            return redirect('login')
 
     return render(request, 'registration/login.html')
 
