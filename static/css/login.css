@@ -24,7 +24,7 @@ body {
     margin: 0 auto;
   }
   .form {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 44%;
     height: 40%;
@@ -36,7 +36,7 @@ body {
     border: transparent;
     outline: transparent;
     height: 11%;
-    position: absolute;
+    position: relative;
     top: -20%;
     font-size: 20px;
     text-align: center;
@@ -47,7 +47,7 @@ body {
     border: transparent;
     outline: transparent;
     height: 11%;
-    position: absolute;
+    position: relative;
     top: -4%;
     font-size: 20px;
     text-align: center;
@@ -60,20 +60,20 @@ body {
     border: 2px solid black;
     font-size: 18px;
     font-family: sans-serif;
-    position: absolute;
+    position: relative;
     left: 47.9%;
     top: 55%;
   }
   .username-line {
     border-top: 2px solid white;
     width: 15.625rem;
-    position: absolute;
+    position: relative;
     top: -12%;
   }
   .password-line {
     border-top: 2px solid white;
     width: 15.625rem;
-    position: absolute;
+    position: relative;
     top: 4%;
   }
 }
