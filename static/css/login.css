@@ -2,6 +2,9 @@ html,
 body {
   height: 100%;
 }
+body{
+  background: url("/static/images/backgroundCastle.jpg");
+}
 @media (min-width: 1440px) {
   .flex-container {
     width: 100%;
