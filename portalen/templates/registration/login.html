@@ -40,11 +40,7 @@
             type="submit"
             value="Logga In"
           />
-          {% if messages %}
-            {% for message in messages %}
-            <div class="messages">{{ message }}</div>
-            {% endfor %}
-          {% endif %}
+          {{form.user.errors}}
         </form>
       </div>
     </div>
