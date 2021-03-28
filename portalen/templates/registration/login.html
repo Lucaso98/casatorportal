@@ -11,8 +11,7 @@
   <body>
     <div class="flex-container">
       <div class="login-wrapper">
-        <div class="logo-container">
-          <input class="login-button" name="submit" type="submit" value="Logga In">
+        <div class="logo-container"></div>
         <form action="" class="form" id="login-form" method="POST">
           {% csrf_token %}
           <input
@@ -21,17 +20,22 @@
             type="text"
             placeholder="Användarnamn"
           />
-          <hr class="username-line">
+          <hr class="username-line" />
           <input
             id="password"
             name="password"
             type="password"
             placeholder="Lösenord"
           />
-          <hr class="password-line">
+          <hr class="password-line" />
         </form>
-        </div>
       </div>
+      <input
+        class="login-button"
+        name="submit"
+        type="submit"
+        value="Logga In"
+      />
     </div>
   </body>
 </html>
