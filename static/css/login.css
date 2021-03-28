@@ -10,7 +10,7 @@ body {
     display: grid;
   }
   .login-wrapper {
-    wwidth: 600px;
+    width: 600px;
     height: 620px;
     background: rgba(255, 255, 255, 0.5);
     margin: 0 auto;
