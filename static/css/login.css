@@ -9,6 +9,8 @@ body {
     background: url("/static/images/backgroundCastle.jpg");
     display: flex;
     background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .login-wrapper {
     width: 620px;
@@ -83,6 +85,8 @@ body {
     background: url("/static/images/backgroundCastle.jpg");
     display: flex;
     background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .login-wrapper {
     width: 620px;
@@ -157,6 +161,8 @@ body {
     background: url("/static/images/backgroundCastle.jpg");
     display: flex;
     background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .login-wrapper {
     width: 620px;
