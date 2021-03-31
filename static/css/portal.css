@@ -4,11 +4,11 @@
     height: 140px;
     position: absolute;
     background: #ae2718;
-    border: 2px solid black;
     font-style: normal;
     font-size: 11px;
     text-align: center;
     color: #ffffff;
+    border: 1px solid white;
   }
   .grid-container {
     width: 375px;
@@ -96,6 +96,10 @@
     left: 53px;
     top: 10px;
     height: 30px;
+  }
+  .item10 {
+    left: 160px;
+    top: 600px;
   }
 }
 
@@ -197,6 +201,10 @@
     left: 103px;
     top: 10px;
     height: 30px;
+  }
+  .item10 {
+    left: -28px;
+    top: 510px;
   }
 }
 
@@ -301,5 +309,9 @@
     left: 103px;
     top: 10px;
     height: 30px;
+  }
+  .item10 {
+    left: 212px;
+    top: 570px;
   }
 }

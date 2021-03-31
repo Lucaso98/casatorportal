@@ -11,56 +11,57 @@
     margin: 0px auto;
   }
   .container {
-    background: url("/static/images/logo.png");
-    background-size: 150% auto;
-    position: relative;
+    background: url("/static/images/logo-no-text.png");
+    background-size: 60% auto;
+    position: absolute;
     width: 93.67px;
     height: 99.29px;
-    left: -172px;
-    top: -20px;
+    left: 8px;
+    top: 11px;
+    background-repeat: no-repeat;
   }
   .title {
-    position: relative;
+    position: absolute;
     width: 119.02px;
     height: 19.38px;
-    left: 75px;
-    top: -69.09px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
+    left: 65px;
+    top: 30.91px;
+    font-size: 15px;
     line-height: 18px;
+    font-family: sans-serif;
     color: #121212;
+    font-weight: 600;
   }
   .logout-container {
-    position: relative;
-    width: 124px;
+    position: absolute;
+    width: 123px;
     height: 80px;
     left: 238px;
-    top: -126px;
+    top: -2px;
   }
   .logout-icon {
     position: absolute;
-    width: 20px;
-    height: 30px;
-    left: 98.1px;
-    top: 25px;
+    width: 15px;
+    height: 25px;
+    left: 93.1px;
+    top: 30px;
   }
   .btn {
     position: absolute;
     width: 140.66px;
     height: 83.38px;
     left: -22px;
-    top: -1px;
-    font-family: Lato;
+    top: 2px;
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 66px;
     color: #ae2718;
   }
   .logout-underscore {
     position: absolute;
-    width: 75px;
+    width: 95px;
     height: 0px;
     left: 13px;
     top: 58px;
@@ -81,7 +82,7 @@
     margin: 0px auto;
   }
   .container {
-    background: url("/static/images/logo.png");
+    background: url("/static/images/logo-no-text.png");
     background-size: 150% auto;
     position: relative;
     width: 100.67px;
@@ -151,7 +152,7 @@
     margin: 0px auto;
   }
   .container {
-    background: url("/static/images/logo.png");
+    background: url("/static/images/logo-no-text.png");
     background-size: 150% auto;
     position: relative;
     width: 100.67px;
