@@ -83,19 +83,20 @@
   }
   .container {
     background: url("/static/images/logo-no-text.png");
-    background-size: 150% auto;
-    position: relative;
+    background-size: 80% auto;
+    position: absolute;
     width: 100.67px;
     height: 99.29px;
-    left: -382px;
-    top: -25px;
+    left: 13px;
+    top: -2px;
+    background-repeat: no-repeat;
   }
   .title {
-    position: relative;
+    position: absolute;
     width: 119.02px;
     height: 19.38px;
-    left: 120px;
-    top: -69.09px;
+    left: 93px;
+    top: 30.91px;
     font-style: normal;
     font-weight: 600;
     font-size: 23px;
@@ -103,11 +104,11 @@
     color: #121212;
   }
   .logout-container {
-    position: relative;
+    position: absolute;
     width: 184px;
     height: 80px;
     left: 649px;
-    top: -126px;
+    top: -3px;
   }
   .logout-icon {
     position: absolute;
@@ -122,7 +123,6 @@
     height: 83.38px;
     left: -22px;
     top: -1px;
-    font-family: Lato;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
