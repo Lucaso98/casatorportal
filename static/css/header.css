@@ -13,31 +13,31 @@
   .container {
     background: url("/static/images/logo-no-text.png");
     background-size: 60% auto;
-    position: absolute;
+    position: relative;
     width: 93.67px;
     height: 99.29px;
-    left: 8px;
+    left: -130px;
     top: 11px;
     background-repeat: no-repeat;
   }
   .title {
-    position: absolute;
+    position: relative;
     width: 119.02px;
     height: 19.38px;
     left: 65px;
-    top: 30.91px;
-    font-size: 15px;
+    top: -67.09px;
+    font-size: 13px;
     line-height: 18px;
     font-family: sans-serif;
     color: #121212;
     font-weight: 600;
   }
   .logout-container {
-    position: absolute;
+    position: relative;
     width: 123px;
     height: 80px;
-    left: 238px;
-    top: -2px;
+    left: 234px;
+    top: -131px;
   }
   .logout-icon {
     position: absolute;
@@ -61,9 +61,9 @@
   }
   .logout-underscore {
     position: absolute;
-    width: 95px;
+    width: 64px;
     height: 0px;
-    left: 13px;
+    left: 17px;
     top: 58px;
     border: 1px solid #ae2718;
   }
@@ -83,23 +83,23 @@
   }
   .container {
     background: url("/static/images/logo-no-text.png");
-    background-size: 80% auto;
+    background-size: 70% auto;
     position: relative;
     width: 100.67px;
     height: 99.29px;
-    left: -372px;
-    top: -2px;
+    left: -369px;
+    top: 2px;
     background-repeat: no-repeat;
   }
   .title {
     position: relative;
     width: 119.02px;
     height: 19.38px;
-    left: 78px;
+    left: 84px;
     top: -68.09px;
     font-style: normal;
     font-weight: 600;
-    font-size: 23px;
+    font-size: 22px;
     line-height: 18px;
     color: #121212;
   }
@@ -131,9 +131,9 @@
   }
   .logout-underscore {
     position: absolute;
-    width: 75px;
+    width: 85px;
     height: 0px;
-    left: 45px;
+    left: 39px;
     top: 58px;
     border: 1px solid #ae2718;
   }
