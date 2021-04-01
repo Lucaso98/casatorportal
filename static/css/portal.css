@@ -109,7 +109,7 @@
     height: 140px;
     position: absolute;
     background: #ae2718;
-    border: 2px solid black;
+    border: 1px solid white;
     font-style: normal;
     font-size: 18px;
     text-align: center;
@@ -214,14 +214,11 @@
     height: 150px;
     position: absolute;
     background: #ae2718;
-    border: 2px solid black;
-
-    font-family: Lato;
-    font-style: serif;
+    border: 1px solid white;
     font-size: 18px;
     text-align: center;
-
     color: #ffffff;
+    font-style: normal;
   }
   .grid-container {
     width: 1440px;
