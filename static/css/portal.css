@@ -311,4 +311,7 @@
     left: 212px;
     top: 570px;
   }
+  .button-text{
+    position: absolute;
+  }
 }
