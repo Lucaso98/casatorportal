@@ -225,24 +225,37 @@
     height: 750px;
     margin: 25px auto;
   }
+
   .item1 {
     left: 250px;
     top: 0px;
   }
   .svg1 {
     position: absolute;
-    left: 110px;
-    top: 10px;
+    left: 108px;
+    top: 20px;
   }
+  .button-text1 {
+    position: absolute;
+    left: 25px;
+    top: 80px;
+  }
+
   .item2 {
     left: 580px;
     top: 0px;
   }
   .svg2 {
     position: absolute;
-    left: 110px;
-    top: 10px;
+    left: 115px;
+    top: 20px;
   }
+  .button-text2 {
+    position: absolute;
+    top: 80px;
+    left: 30px;
+  }
+
   .item3 {
     left: 900px;
     top: 0px;
@@ -250,8 +263,13 @@
   .svg3 {
     position: absolute;
     left: 110px;
-    top: 10px;
+    top: 20px;
   }
+  .button-text3 {
+    position: absolute;
+    top: 70px;
+  }
+
   .item4 {
     left: 238px;
     top: 190px;
@@ -259,8 +277,14 @@
   .svg4 {
     position: absolute;
     left: 110px;
-    top: 10px;
+    top: 20px;
   }
+  .button-text4 {
+    position: absolute;
+    left: 41px;
+    width: 160px;
+  }
+
   .item5 {
     left: 568px;
     top: 190px;
@@ -268,8 +292,13 @@
   .svg5 {
     position: absolute;
     left: 110px;
-    top: 10px;
+    top: 20px;
+    }
+  .button-text5 {
+    position: absolute;
+    top: 80px;
   }
+
   .item6 {
     left: 888px;
     top: 190px;
@@ -277,8 +306,13 @@
   .svg6 {
     position: absolute;
     left: 110px;
-    top: 10px;
+    top: 20px;
+    }
+  .button-text6 {
+    position: absolute;
+    top: 80px;
   }
+
   .item7 {
     left: 226px;
     top: 380px;
@@ -286,8 +320,14 @@
   .svg7 {
     position: absolute;
     left: 110px;
-    top: 10px;
+    top: 20px;
   }
+  .button-text7 {
+    position: absolute;
+    top: 80px;
+    left: 67px;
+    }
+
   .item8 {
     left: 556px;
     top: 380px;
@@ -295,50 +335,36 @@
   .svg8 {
     position: absolute;
     left: 110px;
-    top: 10px;
+    top: 20px;
+    }
+  .button-text8 {
+    position: absolute;
+    top: 80px;
+    left: 50px;
   }
+
   .item9 {
     left: 878px;
     top: 380px;
   }
   .svg9 {
     position: absolute;
-    left: 103px;
-    top: 10px;
-    height: 30px;
+    left: 110px;
+    top: 20px;
   }
+  .button-text9 {
+    position: absolute;
+    top: 74px;
+    left: 53px;
+    width: 153px;
+  }
+  
   .item10 {
     left: 212px;
     top: 570px;
   }
-  .button-text1{
+  .button-text10 {
     position: absolute;
-  }
-  .button-text2{
-    position: absolute;
-  }
-  .button-text3{
-    position: absolute;
-  }
-  .button-text4{
-    position: absolute;
-  }
-  .button-text5{
-    position: absolute;
-  }
-  .button-text6{
-    position: absolute;
-  }
-  .button-text7{
-    position: absolute;
-  }
-  .button-text8{
-    position: absolute;
-  }
-  .button-text9{
-    position: absolute;
-  }
-  .button-text10{
-    position: absolute;
+    left: 10px;
   }
 }
