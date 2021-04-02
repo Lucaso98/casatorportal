@@ -311,7 +311,34 @@
     left: 212px;
     top: 570px;
   }
-  .button-text{
+  .button-text1{
+    position: absolute;
+  }
+  .button-text2{
+    position: absolute;
+  }
+  .button-text3{
+    position: absolute;
+  }
+  .button-text4{
+    position: absolute;
+  }
+  .button-text5{
+    position: absolute;
+  }
+  .button-text6{
+    position: absolute;
+  }
+  .button-text7{
+    position: absolute;
+  }
+  .button-text8{
+    position: absolute;
+  }
+  .button-text9{
+    position: absolute;
+  }
+  .button-text10{
     position: absolute;
   }
 }
