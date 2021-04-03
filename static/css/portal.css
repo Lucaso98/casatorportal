@@ -120,24 +120,37 @@
     height: 705px;
     margin: 25px auto;
   }
+
   .item1 {
     left: 10px;
     top: 0px;
   }
   .svg1 {
     position: absolute;
-    left: 110px;
-    top: 10px;
+    left: 108px;
+    top: 20px;
   }
+  .button-text1 {
+    position: absolute;
+    left: 25px;
+    top: 80px;
+  }
+
   .item2 {
     left: 290px;
     top: 0px;
   }
   .svg2 {
     position: absolute;
-    left: 110px;
-    top: 10px;
+    left: 115px;
+    top: 20px;
   }
+  .button-text2 {
+    position: absolute;
+    top: 80px;
+    left: 30px;
+  }
+
   .item3 {
     left: 560px;
     top: 0px;
@@ -145,8 +158,13 @@
   .svg3 {
     position: absolute;
     left: 110px;
-    top: 10px;
+    top: 20px;
   }
+  .button-text3 {
+    position: absolute;
+    top: 70px;
+  }
+
   .item4 {
     left: -2px;
     top: 170px;
@@ -154,8 +172,14 @@
   .svg4 {
     position: absolute;
     left: 110px;
-    top: 10px;
+    top: 20px;
   }
+  .button-text4 {
+    position: absolute;
+    left: 41px;
+    width: 160px;
+  }
+
   .item5 {
     left: 277px;
     top: 170px;
@@ -163,8 +187,13 @@
   .svg5 {
     position: absolute;
     left: 110px;
-    top: 10px;
+    top: 20px;
   }
+  .button-text5 {
+    position: absolute;
+    top: 80px;
+  }
+
   .item6 {
     left: 548px;
     top: 170px;
@@ -172,8 +201,13 @@
   .svg6 {
     position: absolute;
     left: 110px;
-    top: 10px;
+    top: 20px;
   }
+  .button-text6 {
+    position: absolute;
+    top: 80px;
+  }
+
   .item7 {
     left: -14px;
     top: 340px;
@@ -181,8 +215,14 @@
   .svg7 {
     position: absolute;
     left: 110px;
-    top: 10px;
+    top: 20px;
   }
+  .button-text7 {
+    position: absolute;
+    top: 80px;
+    left: 67px;
+  }
+
   .item8 {
     left: 265px;
     top: 340px;
@@ -190,21 +230,37 @@
   .svg8 {
     position: absolute;
     left: 110px;
-    top: 10px;
+    top: 20px;
   }
+  .button-text8 {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+  }
+
   .item9 {
     left: 537px;
     top: 340px;
   }
   .svg9 {
     position: absolute;
-    left: 103px;
-    top: 10px;
-    height: 30px;
+    left: 110px;
+    top: 20px;
   }
+  .button-text9 {
+    position: absolute;
+    top: 74px;
+    left: 53px;
+    width: 153px;
+  }
+
   .item10 {
     left: -28px;
     top: 510px;
+  }
+  .button-text10 {
+    position: absolute;
+    left: 10px;
   }
 }
 
@@ -293,7 +349,7 @@
     position: absolute;
     left: 110px;
     top: 20px;
-    }
+  }
   .button-text5 {
     position: absolute;
     top: 80px;
@@ -307,7 +363,7 @@
     position: absolute;
     left: 110px;
     top: 20px;
-    }
+  }
   .button-text6 {
     position: absolute;
     top: 80px;
@@ -326,7 +382,7 @@
     position: absolute;
     top: 80px;
     left: 67px;
-    }
+  }
 
   .item8 {
     left: 556px;
@@ -336,7 +392,7 @@
     position: absolute;
     left: 110px;
     top: 20px;
-    }
+  }
   .button-text8 {
     position: absolute;
     top: 80px;
@@ -358,7 +414,7 @@
     left: 53px;
     width: 153px;
   }
-  
+
   .item10 {
     left: 212px;
     top: 570px;
