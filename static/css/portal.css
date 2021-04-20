@@ -1,326 +1,75 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
 @media only screen and (min-width: 375px) {
   #grid-item {
     width: 150px;
-    height: 140px;
-    position: absolute;
+    height: 125px;
     background: #ae2718;
-    font-style: normal;
+    border: 1px solid transparent;
     font-size: 12px;
     text-align: center;
     color: #ffffff;
-    border: 1px solid white;
+    font-style: normal;
+    }
+  
+  .page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
   }
-  .grid-container {
-    width: 375px;
-    height: 705px;
-    margin: 25px auto;
+  .flex-container {
+    flex-flow: column wrap;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    align-content: space-evenly;
   }
-
-  .item1 {
-    left: 20px;
-    top: 0px;
-  }
-  .svg1 {
-    position: absolute;
-    left: 62px;
-    top: 20px;
-  }
-  .button-text1 {
-    position: absolute;
-    left: 10px;
-    top: 80px;
-  }
-
-  .item2 {
-    left: 195px;
-    top: 0px;
-  }
-  .svg2 {
-    position: absolute;
-    left: 66px;
-    top: 20px;
-  }
-  .button-text2 {
-    position: absolute;
-    top: 80px;
-    left: 12px;
-  }
-
-  .item3 {
-    left: 12px;
-    top: 150px;
-  }
-  .svg3 {
-    position: absolute;
-    left: 62px;
-    top: 20px;
-  }
-  .button-text3 {
-    position: absolute;
-    top: 70px;
-    left: 0px;
-  }
-
-  .item4 {
-    left: 186px;
-    top: 150px;
-  }
-  .svg4 {
-    position: absolute;
-    left: 64px;
-    top: 20px;
-  }
-  .button-text4 {
-    position: absolute;
-    left: -5px;
-    width: 160px;
-  }
-
-  .item5 {
-    left: 4px;
-    top: 300px;
-  }
-  .svg5 {
-    position: absolute;
-    left: 62px;
-    top: 20px;
-  }
-  .button-text5 {
-    position: absolute;
-    top: 70px;
-    left: 0px;
-  }
-
-  .item6 {
-    left: 177px;
-    top: 300px;
-  }
-  .svg6 {
-    position: absolute;
-    left: 61px;
-    top: 20px;
-  }
-  .button-text6 {
-    position: absolute;
-    top: 70px;
-    left: 1px;
-  }
-
-  .item7 {
-    left: -4px;
-    top: 450px;
-  }
-  .svg7 {
-    position: absolute;
-    left: 62px;
-    top: 20px;
-  }
-  .button-text7 {
-    position: absolute;
-    top: 70px;
-    left: 35px;
-  }
-
-  .item8 {
-    left: 169px;
-    top: 450px;
-  }
-  .svg8 {
-    position: absolute;
-    left: 62px;
-    top: 20px;
-  }
-  .button-text8 {
-    position: absolute;
-    top: 70px;
-    left: 26px;
-  }
-
-  .item9 {
-    left: -13px;
-    top: 600px;
-  }
-  .svg9 {
-    position: absolute;
-    left: 59px;
-    top: 17px;
-    width: 35px;
-  }
-  .button-text9 {
-    position: absolute;
-    top: 74px;
-    left: 1px;
-    width: 153px;
-  }
-
-  .item10 {
-    left: 160px;
-    top: 600px;
-  }
-  .button-text10 {
-    position: absolute;
-    left: 3px;
+  .btn-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 19%;
   }
 }
-
 @media (min-width: 834px) {
   #grid-item {
     width: 250px;
-    height: 140px;
-    position: absolute;
+    height: 150px;
     background: #ae2718;
-    border: 1px solid white;
-    font-style: normal;
+    border: 1px solid transparent;
     font-size: 18px;
     text-align: center;
     color: #ffffff;
+    font-style: normal;
   }
-  .grid-container {
-    width: 834px;
-    height: 705px;
-    margin: 25px auto;
+  .page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
   }
-
-  .item1 {
-    left: 10px;
-    top: 0px;
+  .flex-container {
+    flex-flow: row wrap;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
   }
-  .svg1 {
-    position: absolute;
-    left: 108px;
-    top: 20px;
-  }
-  .button-text1 {
-    position: absolute;
-    left: 25px;
-    top: 80px;
-  }
-
-  .item2 {
-    left: 290px;
-    top: 0px;
-  }
-  .svg2 {
-    position: absolute;
-    left: 115px;
-    top: 20px;
-  }
-  .button-text2 {
-    position: absolute;
-    top: 80px;
-    left: 30px;
-  }
-
-  .item3 {
-    left: 560px;
-    top: 0px;
-  }
-  .svg3 {
-    position: absolute;
-    left: 110px;
-    top: 20px;
-  }
-  .button-text3 {
-    position: absolute;
-    top: 70px;
-  }
-
-  .item4 {
-    left: -2px;
-    top: 170px;
-  }
-  .svg4 {
-    position: absolute;
-    left: 110px;
-    top: 20px;
-  }
-  .button-text4 {
-    position: absolute;
-    left: 41px;
-    width: 160px;
-  }
-
-  .item5 {
-    left: 277px;
-    top: 170px;
-  }
-  .svg5 {
-    position: absolute;
-    left: 110px;
-    top: 20px;
-  }
-  .button-text5 {
-    position: absolute;
-    top: 80px;
-  }
-
-  .item6 {
-    left: 548px;
-    top: 170px;
-  }
-  .svg6 {
-    position: absolute;
-    left: 110px;
-    top: 20px;
-  }
-  .button-text6 {
-    position: absolute;
-    top: 80px;
-  }
-
-  .item7 {
-    left: -14px;
-    top: 340px;
-  }
-  .svg7 {
-    position: absolute;
-    left: 110px;
-    top: 20px;
-  }
-  .button-text7 {
-    position: absolute;
-    top: 80px;
-    left: 67px;
-  }
-
-  .item8 {
-    left: 265px;
-    top: 340px;
-  }
-  .svg8 {
-    position: absolute;
-    left: 110px;
-    top: 20px;
-  }
-  .button-text8 {
-    position: absolute;
-    top: 80px;
-    left: 50px;
-  }
-
-  .item9 {
-    left: 537px;
-    top: 340px;
-  }
-  .svg9 {
-    position: absolute;
-    left: 110px;
-    top: 20px;
-  }
-  .button-text9 {
-    position: absolute;
-    top: 74px;
-    left: 53px;
-    width: 153px;
-  }
-
-  .item10 {
-    left: -28px;
-    top: 510px;
-  }
-  .button-text10 {
-    position: absolute;
-    left: 10px;
+  .btn-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    flex: 0 0 33%;
   }
 }
 
@@ -328,159 +77,37 @@
   #grid-item {
     width: 250px;
     height: 150px;
-    position: absolute;
     background: #ae2718;
-    border: 1px solid white;
+    border: 1px solid transparent;
     font-size: 18px;
     text-align: center;
     color: #ffffff;
     font-style: normal;
   }
-  .grid-container {
-    width: 1440px;
-    height: 750px;
-    margin: 25px auto;
+  #grid-item:hover {
+    background-color: #910f01;
+    transition: 0.5s;
   }
-
-  .item1 {
-    left: 250px;
-    top: 0px;
+  .page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
   }
-  .svg1 {
-    position: absolute;
-    left: 108px;
-    top: 20px;
+  .flex-container {
+    flex-flow: column wrap;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
   }
-  .button-text1 {
-    position: absolute;
-    left: 25px;
-    top: 80px;
-  }
-
-  .item2 {
-    left: 580px;
-    top: 0px;
-  }
-  .svg2 {
-    position: absolute;
-    left: 115px;
-    top: 20px;
-  }
-  .button-text2 {
-    position: absolute;
-    top: 80px;
-    left: 30px;
-  }
-
-  .item3 {
-    left: 900px;
-    top: 0px;
-  }
-  .svg3 {
-    position: absolute;
-    left: 110px;
-    top: 20px;
-  }
-  .button-text3 {
-    position: absolute;
-    top: 70px;
-  }
-
-  .item4 {
-    left: 238px;
-    top: 190px;
-  }
-  .svg4 {
-    position: absolute;
-    left: 110px;
-    top: 20px;
-  }
-  .button-text4 {
-    position: absolute;
-    left: 41px;
-    width: 160px;
-  }
-
-  .item5 {
-    left: 568px;
-    top: 190px;
-  }
-  .svg5 {
-    position: absolute;
-    left: 110px;
-    top: 20px;
-  }
-  .button-text5 {
-    position: absolute;
-    top: 80px;
-  }
-
-  .item6 {
-    left: 888px;
-    top: 190px;
-  }
-  .svg6 {
-    position: absolute;
-    left: 110px;
-    top: 20px;
-  }
-  .button-text6 {
-    position: absolute;
-    top: 80px;
-  }
-
-  .item7 {
-    left: 226px;
-    top: 380px;
-  }
-  .svg7 {
-    position: absolute;
-    left: 110px;
-    top: 20px;
-  }
-  .button-text7 {
-    position: absolute;
-    top: 80px;
-    left: 67px;
-  }
-
-  .item8 {
-    left: 556px;
-    top: 380px;
-  }
-  .svg8 {
-    position: absolute;
-    left: 110px;
-    top: 20px;
-  }
-  .button-text8 {
-    position: absolute;
-    top: 80px;
-    left: 50px;
-  }
-
-  .item9 {
-    left: 878px;
-    top: 380px;
-  }
-  .svg9 {
-    position: absolute;
-    left: 110px;
-    top: 20px;
-  }
-  .button-text9 {
-    position: absolute;
-    top: 74px;
-    left: 53px;
-    width: 153px;
-  }
-
-  .item10 {
-    left: 212px;
-    top: 570px;
-  }
-  .button-text10 {
-    position: absolute;
-    left: 10px;
+  .btn-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 34px;
+    flex: 0 0 20%;
   }
 }

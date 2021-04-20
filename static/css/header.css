@@ -1,211 +1,146 @@
-@media only screen and (min-width: 375px) {
-  .navbar-portal {
+@media only screen and (min-width: 375px){
+  .flex-navbar {
     width: 100%;
-    height: 80px;
+    height: 10%;
     background: #ffffff;
-    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 4px 50px rgb(0 0 0 / 5%);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
   }
-  .header-wrapper {
-    width: 375px;
-    height: 80px;
-    margin: 0px auto;
+  h2{
+    font-size: 1.3rem;
   }
-  .container {
+  .header-container {
+    width: 66%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
     background: url("/static/images/logo-no-text.png");
-    background-size: 60% auto;
-    position: relative;
-    width: 93.67px;
-    height: 99.29px;
-    left: -130px;
-    top: 11px;
+    width: 25%;
+    height: 100%;
+    background-size: contain;
     background-repeat: no-repeat;
   }
-  .title {
+  .logout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+  }
+  .btn{
     position: relative;
-    width: 119.02px;
-    height: 19.38px;
-    left: 65px;
-    top: -67.09px;
-    font-size: 13px;
-    line-height: 18px;
+    left: -1.5rem;
+    width: 7rem;
+    top: 0.5rem;
+    font-size: 1rem;
     font-family: sans-serif;
-    color: #121212;
-    font-weight: 600;
+    font-weight: bold;
+    color: #bd2716;
+    padding: 0;
   }
-  .logout-container {
+  .logout-icon{
     position: relative;
-    width: 123px;
-    height: 80px;
-    left: 234px;
-    top: -131px;
-  }
-  .logout-icon {
-    position: absolute;
-    width: 15px;
-    height: 25px;
-    left: 93.1px;
-    top: 30px;
-  }
-  .btn {
-    position: absolute;
-    width: 140.66px;
-    height: 83.38px;
-    left: -22px;
-    top: 2px;
-    font-family: sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 66px;
-    color: #ae2718;
-  }
-  .logout-underscore {
-    position: absolute;
-    width: 64px;
-    height: 0px;
-    left: 17px;
-    top: 58px;
-    border: 1px solid #ae2718;
+    left: -2rem;
   }
 }
 
-@media (min-width: 834px) {
-  .navbar-portal {
-    width: 100%;
-    height: 80px;
+@media (min-width: 834px){
+  .flex-navbar {
+    width: 95%;
+    height: 10%;
     background: #ffffff;
-    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 4px 50px rgb(0 0 0 / 5%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
-  .header-wrapper {
-    width: 834px;
-    height: 80px;
-    margin: 0px auto;
+  .header-container {
+    width: 39%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .container {
+  .logo {
     background: url("/static/images/logo-no-text.png");
-    background-size: 70% auto;
-    position: relative;
-    width: 100.67px;
-    height: 99.29px;
-    left: -369px;
-    top: 2px;
+    width: 25%;
+    height: 100%;
+    background-size: contain;
     background-repeat: no-repeat;
   }
-  .title {
+  .logout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 23%;
+    background-color: #f7f7f7;
+  }
+  .btn{
     position: relative;
-    width: 119.02px;
-    height: 19.38px;
-    left: 84px;
-    top: -68.09px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 18px;
-    color: #121212;
+    left: 0.8rem;
+    top: 0.5rem;
+    width: 7rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #bd2716;
   }
-  .logout-container {
+  .logout-icon{
     position: relative;
-    width: 184px;
-    height: 80px;
-    left: 638px;
-    top: -126px;
-  }
-  .logout-icon {
-    position: absolute;
-    width: 35px;
-    height: 30px;
-    left: 142.1px;
-    top: 25px;
-  }
-  .btn {
-    position: absolute;
-    width: 204.66px;
-    height: 83.38px;
-    left: -22px;
-    top: -1px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 66px;
-    color: #ae2718;
-  }
-  .logout-underscore {
-    position: absolute;
-    width: 85px;
-    height: 0px;
-    left: 39px;
-    top: 58px;
-    border: 1px solid #ae2718;
-  }
+    left: 0.5rem;
+    }
 }
 
 @media (min-width: 1440px) {
-  .navbar-portal {
-    width: 100%;
-    height: 80px;
+  .flex-navbar {
+    width: 96%;
+    height: 10%;
     background: #ffffff;
     box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
   }
-  .header-wrapper {
-    width: 1440px;
-    height: 80px;
-    margin: 0px auto;
+  .header-container {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .container {
+  .logo {
     background: url("/static/images/logo-no-text.png");
-    background-size: 80% auto;
-    position: relative;
-    width: 100.67px;
-    height: 99.29px;
-    left: -433px;
-    top: -2px;
+    width: 25%;
+    height: 100%;
+    background-size: contain;
     background-repeat: no-repeat;
   }
-  .title {
+  .logout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 10%;
+    background-color:#f7f7f7 ;
+  }
+  .btn{
     position: relative;
-    width: 119.02px;
-    height: 19.38px;
-    left: 319px;
-    top: -67.09px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 23px;
-    line-height: 18px;
-    color: #121212;
+    left: 0rem;
+    width: 7rem;
+    top: 0.5rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #bd2716;
   }
-  .logout-container {
+  .logout-icon{
     position: relative;
-    width: 184px;
-    height: 80px;
-    left: 973px;
-    top: -127px;
-    background: #f7f7f7;
-  }
-  .logout-icon {
-    position: absolute;
-    width: 35px;
-    height: 30px;
-    left: 142.1px;
-    top: 25px;
-  }
-  .btn {
-    position: absolute;
-    width: 204.66px;
-    height: 83.38px;
-    left: -22px;
-    top: -1px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 66px;
-    color: #ae2718;
-  }
-  .logout-underscore {
-    position: absolute;
-    width: 75px;
-    height: 0px;
-    left: 45px;
-    top: 58px;
-    border: 1px solid #ae2718;
+    left: -0.5rem;
   }
 }
