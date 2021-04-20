@@ -115,8 +115,8 @@ body {
   }
   
   .login-wrapper {
-    width: 620px;
-    height: 620px;
+    width: 60%;
+    height: 65%;
     background: rgba(255, 255, 255, 0.5);
   }
   .logo-container {
@@ -212,8 +212,8 @@ body {
   }
 
   .login-wrapper {
-    width: 660px;
-    height: 620px;
+    width: 35%;
+    height: 65%;
     background: rgba(255, 255, 255, 0.5);
   }
   
